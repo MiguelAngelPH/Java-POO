@@ -1,4 +1,3 @@
-
 public class Propiedades {
 	
  int Nprop;
@@ -51,10 +50,11 @@ String Desc_prop;
  public String Mostrar_Datos() {
 	 String Presentar;
 	 
-	 Presentar = "Numero de propiedad es: "+getNprop()+", tipo: "+getDesc_prop()+", Superficie:"+getSuperf();
-	 Presentar = Presentar + ", En Moneda : "+getTipo_oper()+", Costo: $"+getValor();
+	 Presentar = "Numero de propiedad es: "+getNprop()+", Lugar: "+getDesc_prop()+", Tipo: "+getSuperf();
+	 Presentar = Presentar + ", En Moneda: "+getTipo_oper()+", Costo: $"+getValor();
 	 return Presentar;
 	 
  	}
+ 
  
 }
